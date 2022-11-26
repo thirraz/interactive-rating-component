@@ -10,11 +10,12 @@ export const ThankYou = () => {
 
 	return (
 		<div className="w-[27rem] h-[27rem] px-9 bg-gray-800 rounded-[40px] font-overPass flex flex-col justify-around items-center">
-			<img
-				src={thankYouIllustration}
-				alt="An cellphone for illustrate the component"
-				className="w-[10rem] h-28"
-			/>
+			<div className="w-[10rem] h-28">
+				<img
+					src={thankYouIllustration}
+					alt="An cellphone for illustrate the component"
+				/>
+			</div>
 
 			<p className=" px-8 py-2 rounded-full bg-buttonColor text-orangeColor">
 				You selected {ratingValue} out of 5
