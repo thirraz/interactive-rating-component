@@ -34,7 +34,7 @@ export const Rating = () => {
 						<img src={star} alt="star icon" />
 					</div>
 					<div className="w-auto h-auto">
-						<h1 className="text-white text-[2rem]">
+						<h1 className="text-white text-[2rem] font-bold mb-2">
 							How did we do?
 						</h1>
 						<p className="text-slate-400">

@@ -13,7 +13,7 @@ export const ThankYou = () => {
 			<img
 				src={thankYouIllustration}
 				alt="An cellphone for illustrate the component"
-				className="w-36 h-28"
+				className="w-[10rem] h-28"
 			/>
 
 			<p className=" px-8 py-2 rounded-full bg-buttonColor text-orangeColor">
@@ -21,7 +21,7 @@ export const ThankYou = () => {
 			</p>
 
 			<div className="w-full h-auto text-center text-white">
-				<h1 className="text-[1.8rem]">Thank you!</h1>
+				<h1 className="text-[1.8rem] mb-5 font-bold">Thank you!</h1>
 				<p className="text-slate-400">
 					We appreciate you taking the time to give a rating. If
 					you ever need more support, don't hesitate to get in
